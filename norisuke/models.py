@@ -6,6 +6,7 @@ class Group(models.Model):
     def __unicode__(self):
         return self.name
 
+
 class User(models.Model):
     name = models.CharField(max_length=64)
     access_id = models.CharField(max_length=64)
@@ -13,6 +14,7 @@ class User(models.Model):
 
     def __unicode__(self):
         return self.name
+
 
 class Schedule(models.Model):
     name = models.CharField(max_length=128)
