@@ -1,3 +1,8 @@
 from django.contrib import admin
 
-# Register your models here.
+from norisuke.models import Group, User, Schedule
+
+admin.site.register(Group)
+admin.site.register(User)
+admin.site.register(Schedule)
+
