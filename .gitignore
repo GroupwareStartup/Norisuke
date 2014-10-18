@@ -56,4 +56,6 @@ target/
 # Heroku
 venv
 staticfiles
+db.sqlite3
+
 
